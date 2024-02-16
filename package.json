@@ -36,11 +36,12 @@
     "local-create": "yarn workspace @se-2/subgraph local-create",
     "local-ship": "yarn workspace @se-2/subgraph local-ship",
     "abi-copy": "yarn workspace @se-2/subgraph abi-copy",
-    "codegen": "yarn workspace @se-2/subgraph codegen"
+    "codegen": "yarn workspace @se-2/subgraph codegen",
+    "prepare": "husky install"
   },
   "packageManager": "yarn@3.2.3",
   "devDependencies": {
-    "husky": "^8.0.1",
+    "husky": "^8.0.0",
     "lint-staged": "^13.0.3"
   }
 }
